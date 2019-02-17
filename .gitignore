@@ -1,0 +1,22 @@
+logs/
+*.pyc
+
+# файлы pycharm
+.idea/
+*.iml
+*.ipr
+*.iws
+yarn*
+
+# файлы eclipse
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+-node_modules/
+-bower_components/
+-NLionly/static/bundle.js.map
+-NLionly/static/styles.css.map
+-.cache
+-db.sqlite3
