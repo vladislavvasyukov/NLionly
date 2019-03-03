@@ -1,4 +1,4 @@
-from django import models
+from django.db import models
 
 
 class Tag(models.Model):
@@ -7,3 +7,5 @@ class Tag(models.Model):
     class Meta:
         db_table = u'tags'
         app_label = 'blog'
+        verbose_name = u'Тег'
+        verbose_name_plural = u'Теги'

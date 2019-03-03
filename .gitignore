@@ -1,5 +1,6 @@
 logs/
 *.pyc
+*/__pycache__/
 
 # файлы pycharm
 .idea/
