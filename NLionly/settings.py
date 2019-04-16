@@ -25,7 +25,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',
+    'core',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -88,7 +89,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL = 'blog.User'
+AUTH_USER_MODEL = 'core.User'
 
 
 # Internationalization
